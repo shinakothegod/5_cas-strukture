@@ -53,6 +53,11 @@ namespace Construktori
             r4.Imenilac = 4;
             Console.WriteLine("r4 =");
             r4.Ispisi();
+             //Rucna Inicijalizacija
+            r4.Brojilac = 3;
+            r4.Imenilac = 4;
+            Console.WriteLine("r4 =");
+            r4.Ispisi();
 
         }
     }
