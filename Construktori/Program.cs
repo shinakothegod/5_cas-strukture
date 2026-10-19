@@ -34,30 +34,38 @@ namespace Construktori
 
             Console.WriteLine("Prikaz razlomaka:");
 
-            Console.WriteLine("r1 ="); 
+            Console.Write("r1 = "); 
             r1.Ispisi();
 
             Racionalan r2 = new Racionalan(1, 2); //konstruktor sa parametrima
-            Console.WriteLine("r2 =");
+            Console.Write("r2 = ");
             r2.Ispisi();
 
             Racionalan r3 = new Racionalan //Inicijalizator objekta 
             {
                 Imenilac = 5
             };
-            Console.WriteLine("r3 =");
+            Console.Write("r3 = ");
             r3.Ispisi();
 
             Racionalan r4; //Rucna Inicijalizacija
             r4.Brojilac = 3;
             r4.Imenilac = 4;
-            Console.WriteLine("r4 =");
+            Console.Write("r4 = ");
             r4.Ispisi();
              //Rucna Inicijalizacija
             r4.Brojilac = 3;
             r4.Imenilac = 4;
-            Console.WriteLine("r4 =");
+            Console.Write("r4 = ");
             r4.Ispisi();
+            Racionalan r5 = r1;
+            Console.Write("Stari r5: ");
+            r5.Ispisi();
+            r5.Brojilac = 9;
+            r5.Imenilac = 5;
+            Console.Write("Novi r5: ");
+            r5.Ispisi();
+            
 
         }
     }
