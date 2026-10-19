@@ -65,6 +65,8 @@ namespace Construktori
             r5.Imenilac = 5;
             Console.Write("Novi r5: ");
             r5.Ispisi();
+
+            
             
 
         }
